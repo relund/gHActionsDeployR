@@ -16,4 +16,4 @@ gHActionsDeployR in the urls):
 - Modify `script.R` with the R script you need to run (currently just append content to the 
   `data.csv` file).
 
-- Currently the workflow run every minute and on push (see `.github/workflows/run_script.yaml`).
+- Currently the workflow run on push (see `.github/workflows/run_script.yaml` or using cron).
