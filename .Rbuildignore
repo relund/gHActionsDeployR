@@ -1,2 +1,1 @@
-^\.github/workflows/check-release\.yaml$
-^\.github/workflows/render-readme\.yaml$
+^\.github/workflows/run_script\.yaml$
