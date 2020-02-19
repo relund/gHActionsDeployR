@@ -1,7 +1,9 @@
+name: Run R script
+
 on: 
+  push
   schedule: 
     - cron: '0 * * * *'
-name: Run R script
 
 jobs:
   render:
