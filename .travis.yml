@@ -1,0 +1,13 @@
+os: linux
+language: r
+cache: packages
+
+install:
+    - Rscript install.R
+
+before_script:
+  - chmod +x ./git.sh
+
+script:
+  - Rscript script.R
+  - bash git.sh
