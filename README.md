@@ -1,4 +1,4 @@
-# Using Travis CI to run an R script and push the result to GitHub
+# Using GitHub actions to run an R script and push the result to GitHub
 
 This is a template repository with an example on how to run an R script and push the result to 
 the GitHub master branch. 
